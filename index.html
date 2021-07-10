@@ -6,13 +6,37 @@
 	<meta name="viewport" content="width=device-width">
 	<title>Banana Speak</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    textarea{
+      width:80%;
+      height:10vh;
+      display:block;
+      margin:1rem;
+      padding:1rem;
+    }
+    .ott{
+      font-size:large;
+    }
+    #output{
+      width:80%;
+      height:10vh;
+      border:1px solid black;
+      padding:1rem;
+      margin:1rem;
+    }
+  </style>
 </head>
 
 <body>
 
 
 	<h1>Talk Banana</h1>
+  <textarea id="txt-input" placeholder="Enter text to be translated"></textarea>
   <button id="btn-translate">Translate</button>
+  <div class="ott">Output will come here 👇</div>
+  <div id="output">
+
+  </div>
 	<script src="script.js">
 
 	</script>
